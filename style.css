@@ -1,0 +1,56 @@
+body{
+    background: #FEFCF3;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+    header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   /* background-color: #30475e;*/
+    background-color: #645CBB;
+    color: white;
+    padding: 20px 0;
+}
+header nav a{
+    color: white;
+    margin-right: 30px;
+    font-weight: 500;
+}
+.drop{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: stretch;
+}
+.redirect{
+    display: flex;
+    justify-content: space-between;
+}
+nav :hover{
+    color: black;
+    text-decoration: none;
+}
+.userbutton{
+    display: flex;
+    justify-content: space-between;
+}
+.form-control{
+    background-color: #E9E8E8;
+}
+.viewbutton{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar-brand{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
